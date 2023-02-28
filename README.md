@@ -2,13 +2,22 @@
 
 This is the base set up project with React,Next,Prisma,tRPC, TanStack Query etc
 
+- [Init Project](#init-project)
+  - [Installations](#installations)
+    - [NextJS](#nextjs)
+    - [Tailwind](#tailwind)
+  - [Basic Setup](#basic-setup)
+    - [Fonts](#fonts)
+  - [Run Dev](#run-dev)
+  - [To-Dos](#to-dos)
+
 ## Installations
 
 ### NextJS
 
 `terminal`
 
-```bash
+```properties
 pnpm pnpm create next-app --use-pnpm --eslint --typescript --import-alias "@/*" project-name
 ```
 
@@ -18,14 +27,14 @@ Note: Go with defaults after this
 
 `terminal`
 
-```bash
+```properties
 pnpm install -D tailwindcss postcss autoprefixer
 pnpm tailwindcss init -p
 ```
 
 `tailwind.config.js`
 
-``` javascript
+```javascript
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -128,6 +137,14 @@ theme: {
 
 `terminal`
 
-```bash
+```properties
 pnpm next dev
 ```
+
+## To-Dos
+
+- [x] Install Next
+- [x] Add Tailwind
+- [x] Set Up Fonts
+- [ ] Add Prisma
+  
